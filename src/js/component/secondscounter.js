@@ -11,6 +11,11 @@ export const SecondsCounter = props => {
 					<h5
 						className="text-white m-1 p-2 mt-5 d-inline"
 						style={{ backgroundColor: "#262626", width: "20px" }}>
+						<i className="far fa-clock"></i>
+					</h5>
+					<h5
+						className="text-white m-1 p-2 mt-5 d-inline"
+						style={{ backgroundColor: "#262626", width: "20px" }}>
 						{props.first}
 					</h5>
 					<h5
